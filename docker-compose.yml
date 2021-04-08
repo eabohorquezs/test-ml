@@ -1,0 +1,21 @@
+version: "3"
+services:
+  ip-controller:
+    container_name: ip-controller
+    image: ip-controller
+    build:
+      context: .
+      dockerfile: Dockerfile-ipcontroller.dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app/*
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+    - ./db/:/data/db
+    ports:
+      - "27017:27017"

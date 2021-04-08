@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "fe780555-90c2-4fe0-b2fc-34d0610e43c7",
+		"name": "MercadoLibre",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IP INFO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": ""
+			},
+			"response": []
+		},
+		{
+			"name": "IP BAN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": ""
+			},
+			"response": []
+		}
+	]
+}
